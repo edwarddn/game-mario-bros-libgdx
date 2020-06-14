@@ -17,7 +17,7 @@ import com.polygongames.mario.screens.PlayScreen;
  */
 public class FlippingCoin extends Effect {
 
-    private Animation flipping;
+    private Animation<TextureRegion> flipping;
     private float stateTime;
 
     public FlippingCoin(PlayScreen playScreen, float x, float y) {

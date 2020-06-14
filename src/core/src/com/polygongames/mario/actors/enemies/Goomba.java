@@ -25,7 +25,7 @@ public class Goomba extends Enemy {
         DYING,
     }
 
-    private Animation walking;
+    private Animation<TextureRegion> walking;
     private float stateTime;
 
     private boolean movingRight;

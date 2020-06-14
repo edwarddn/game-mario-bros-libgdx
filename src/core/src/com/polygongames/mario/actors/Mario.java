@@ -51,43 +51,43 @@ public class Mario extends RigidBody {
 
     private TextureRegion standingSmall;
     private TextureRegion jumpingSmall;
-    private Animation runningSmall;
+    private Animation<TextureRegion> runningSmall;
     private TextureRegion brakingSmall;
-    private Animation climbingSmall;
+    private Animation<TextureRegion> climbingSmall;
 
     private TextureRegion standingBig;
     private TextureRegion jumpingBig;
-    private Animation runningBig;
+    private Animation<TextureRegion> runningBig;
     private TextureRegion brakingBig;
     private TextureRegion crouchingBig;
-    private Animation climbingBig;
+    private Animation<TextureRegion> climbingBig;
 
     private TextureRegion standingFireMario;
     private TextureRegion jumpingFireMario;
-    private Animation runningFireMario;
+    private Animation<TextureRegion> runningFireMario;
     private TextureRegion brakingFireMario;
     private TextureRegion crouchingFireMario;
-    private Animation climbingFireMario;
+    private Animation<TextureRegion> climbingFireMario;
 
     private TextureRegion[] standingSmallInvincible;
     private TextureRegion[] jumpingSmallInvincible;
-    private Animation[] runningSmallInvincible;
+    private Animation<TextureRegion>[] runningSmallInvincible;
     private TextureRegion[] brakingSmallInvincible;
-    private Animation[] climbingSmallInvincible;
+    private Animation<TextureRegion>[] climbingSmallInvincible;
 
     private TextureRegion[] standingBigInvincible;
     private TextureRegion[] jumpingBigInvincible;
-    private Animation[] runningBigInvincible;
+    private Animation<TextureRegion>[] runningBigInvincible;
     private TextureRegion[] brakingBigInvincible;
     private TextureRegion[] crouchingBigInvincible;
-    private Animation[] firingBigInvincible;
-    private Animation[] climbingBigInvincible;
+    private Animation<TextureRegion>[] firingBigInvincible;
+    private Animation<TextureRegion>[] climbingBigInvincible;
 
     private TextureRegion dying;
-    private Animation growing;
-    private Animation fireMarioing;
-    private Animation shrinking;
-    private Animation firingAnimation;
+    private Animation<TextureRegion> growing;
+    private Animation<TextureRegion> fireMarioing;
+    private Animation<TextureRegion> shrinking;
+    private Animation<TextureRegion> firingAnimation;
 
     private boolean showFiringAnimation;
 

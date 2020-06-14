@@ -22,7 +22,7 @@ import com.polygongames.mario.screens.PlayScreen;
  */
 public class Fireball extends RigidBody {
 
-    private Animation firing;
+    private Animation<TextureRegion> firing;
     private TextureRegion hitting;
 
     private boolean movingRight;

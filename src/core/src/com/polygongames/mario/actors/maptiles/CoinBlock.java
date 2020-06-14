@@ -33,7 +33,7 @@ public class CoinBlock extends MapTileObject {
     private Vector2 targetPosition;
 
     private TextureRegion unhitableTextureRegion;
-    private Animation flashingAnimation;
+    private Animation<TextureRegion> flashingAnimation;
 
     private float stateTimer;
 

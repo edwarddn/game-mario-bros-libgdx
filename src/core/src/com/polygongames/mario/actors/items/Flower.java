@@ -16,7 +16,7 @@ import com.polygongames.mario.screens.PlayScreen;
  */
 public class Flower extends Item {
     
-    private Animation anim;
+    private Animation<TextureRegion> anim;
     private float stateTime;
     
     public Flower(PlayScreen playScreen, float x, float y) {

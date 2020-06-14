@@ -23,7 +23,7 @@ public class Hud implements Disposable {
 
     class CoinHUD extends Actor {
 
-        private Animation anim;
+        private Animation<TextureRegion> anim;
         private float stateTime;
 
         public CoinHUD(TextureAtlas textureAtlas) {

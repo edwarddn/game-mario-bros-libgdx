@@ -26,9 +26,9 @@ public class Koopa extends Enemy {
         DYING,
     }
 
-    private Animation walking;
+    private Animation<TextureRegion> walking;
     private TextureRegion shelling;
-    private Animation awaking;
+    private Animation<TextureRegion> awaking;
 
     private boolean shell;
     private boolean die;

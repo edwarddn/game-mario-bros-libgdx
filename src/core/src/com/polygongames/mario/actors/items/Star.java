@@ -17,7 +17,7 @@ import com.polygongames.mario.screens.PlayScreen;
  */
 public class Star extends Item {
 
-    private Animation animation;
+    private Animation<TextureRegion> animation;
     private float stateTime;
 
     private boolean movingRight;
